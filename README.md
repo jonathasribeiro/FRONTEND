@@ -1,70 +1,46 @@
-# **Projeto RH da V8**
+# HR Analytics Platform
 
-Este é o repositório para o **Projeto RH da V8**, desenvolvido com **React** e tecnologias modernas para criar uma aplicação rápida, funcional e estilosa.
+Frontend for an HR analytics and workforce management platform built with **React**, **TypeScript**, and **Vite**.
 
-> ⚠ **O projeto ainda está em desenvolvimento.**
+## Features
 
----
+- Auth0 authentication and protected routes
+- Interactive dashboards with ApexCharts
+- Form validation with React Hook Form and Yup
+- Responsive UI with Tailwind CSS
+- Unit tests with Jest and Testing Library
 
-## **Tecnologias Utilizadas**
+## Stack
 
-- **TypeScript**
-- **Vite**
-- **React**
-- **Tailwind CSS**
-- **React Router DOM**
-- **React Hook Form**
-- **Yup**
-- **ApexCharts**
-- **React Icons**
-- **Auth0**
-- **Jest**
+| Layer | Technology |
+|-------|------------|
+| UI | React 18 |
+| Language | TypeScript |
+| Build | Vite |
+| Auth | Auth0 |
+| Charts | ApexCharts |
+| Forms | React Hook Form + Yup |
+| Styling | Tailwind CSS |
+| Testing | Jest, Testing Library |
 
----
+## Getting started
 
-## **Configuração Rápida**
+```bash
+npm install
+npm run dev
+```
 
-Siga os passos abaixo para clonar, instalar e executar o projeto localmente:
+Configure Auth0 credentials in your environment before running.
 
-### **1. Opções para Clonar o Repositório**
+## Scripts
 
-#### **1.1 Usando HTTPS**
-1. Acesse o repositório no GitHub e copie o link HTTPS.
-   - Exemplo: `https://github.com/V8-PROJETO-RH/FRONTEND.git`.
-2. No terminal, execute o comando:
-   ```bash
-   git clone https://github.com/V8-PROJETO-RH/FRONTEND.git
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server |
+| `npm run build` | Production build |
+| `npm run test` | Run unit tests |
+| `npm run lint` | Run ESLint |
 
-#### 1.2 Usando SSH
-1. Certifique-se de que sua chave SSH está configurada no GitHub.
-2. Copie o link SSH do repositório:
-  - Exemplo: `git@github.com:V8-PROJETO-RH/FRONTEND.git`.
-3. No terminal, execute o comando:
-git clone git@github.com:V8-PROJETO-RH/FRONTEND.git'
+## Author
 
-#### 1.3 Usando o GitHub CLI
-1. Certifique-se de que o GitHub CLI está instalado e autenticado no seu ambiente.
-2. No terminal, execute o comando:
-gh repo clone V8-PROJETO-RH/FRONTEND
-
-### **2. Instale as Dependências**
-1. No terminal execute o comando:
-  - Exemplo: `npm install`
-
-### **3. Execute o projeto**
-1. No terminal execute o comando:
-  - Exemplo: `npm run dev`
-2. Depois de iniciado, abra o navegador e acesse o endereço:
-  - Exemplo: `http://localhost:5173`
-
-
-
-
-
-
-
-
-
-
-
-
+**Jonathas Ribeiro** — [LinkedIn](https://www.linkedin.com/in/jonathasribeiroreal)
